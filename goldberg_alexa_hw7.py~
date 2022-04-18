@@ -1,0 +1,5 @@
+import numpy as np
+
+myData = np.genfromtxt("sed.txt", names=True)
+
+print myData.names
